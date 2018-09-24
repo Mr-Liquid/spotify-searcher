@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+.logo-wrapper {
+  display: flex;
+  justify-content: space-between;
+  .back-button {
+    width: 137px;
+    height: 41px;
+    padding: 8px 0;
+    border: 1px solid;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 23px;
+    &:hover {
+      color: #fff;
+      background: #111;
+    }
+  }
+}
+.album {
+  display: flex;
+  width: 100%;
+  max-width: 370px;
+  flex-direction: column;
+  img {
+    width: 100%;
+  }
+  .album-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    h3 {
+      margin-top: 0;
+    }
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.track-list {
+  width: 100%;
+  max-width: 870px;
+
+  ul {
+    margin-left: 25px;
+    list-style-image: url(musical-notes.png);
+    @media (max-width: 600px) {
+      margin-left: 0;
+    }
+  }
+  li {
+    margin: 5px 0;
+    p {
+      margin: 0;
+      display: inline;
+      vertical-align: 4px;
+    }
+  }
+}
