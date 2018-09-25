@@ -1,4 +1,5 @@
 ## Spotify searcher 
+### use node version >= 9
 1. clone repo
 2. yarn install
 3. node server.js (run backend spotify server on localhost:8888)
