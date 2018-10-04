@@ -1,7 +1,7 @@
 {
-  "name": "react-mobx-react-router-boilerplate",
+  "name": "Spotify searcher",
   "version": "1.1.10",
-  "description": "React, MobX, React-Router, MobX-Router and Webpack (heroku-ready) boilerplate with async routes.",
+  "description": "Simply searches music from Spotify",
   "main": "webpack.config.js",
   "engines": {
     "node": ">=9.0",
@@ -32,11 +32,7 @@
     "web app",
     "Webpack"
   ],
-  "author": "Alex Devero <deveroalex@gmail.com> (http://github.com/alexdevero)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/alexdevero/react-mobx-react-router-boilerplate/issues"
-  },
+  "author": "",
   "homepage": "",
   "devDependencies": {
     "babel-core": "^6.26.3",
