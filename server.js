@@ -33,10 +33,10 @@ app.get("/callback", function(req, res) {
         "Basic " +
         new Buffer(
           (process.env.SPOTIFY_CLIENT_ID ||
-            "738b217a874a4e3fbaf0d8975bc919f2") +
+            "<id>") +
             ":" +
             (process.env.SPOTIFY_CLIENT_SECRET ||
-              "cb77b5da4e4043138e905f1e42d60b57")
+              "<client_id>")
         ).toString("base64")
     },
     json: true
