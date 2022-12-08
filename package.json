@@ -83,7 +83,7 @@
     "react-toastify": "^4.3.2",
     "rfx-core": "^1.6.0",
     "whatwg-fetch": "^3.0.0",
-    "express": "^4.15.4",
+    "express": "^4.17.3",
     "querystring": "^0.2.0",
     "request": "^2.81.0"
   }
